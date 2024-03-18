@@ -12,6 +12,15 @@
         align-items: center;
         justify-content: center;
     }
+    .info_text h1 {
+        font-size: 20px;
+      }
+      .info_text p {
+        font-size: 15px;
+      }
+      .info_text a {
+        font-size: 8px;
+      }
 }
 
 @media screen and (max-width: 480px) {
@@ -20,4 +29,13 @@
     .auth {
         display: none;
     }
+    .info_text h1 {
+        font-size: 13px;
+      }
+    .info_text p {
+        font-size: 8px;
+      }
+    .info_text a {
+        font-size: 6px;
+      }
 }
